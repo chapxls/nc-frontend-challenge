@@ -1,0 +1,32 @@
+<main>
+  <div class="countdown-body">
+    <div class="countdown-container">
+      <div *ngIf="countdownForm.get('eventName')?.value" class="text title">
+        Time to {{ countdownForm.get('eventName')?.value || '' }}
+      </div>
+      <div *ngIf="countdownForm.get('endDate')?.value" class="text countdown">
+        {{ remainingTime }}
+      </div>
+    </div>
+    <form [formGroup]="countdownForm" class="form-container">
+      <mat-form-field appearance="outline">
+        <mat-label>Title</mat-label>
+        <input matInput formControlName="eventName" placeholder="Enter title" />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Date</mat-label>
+        <input
+          matInput
+          formControlName="endDate"
+          [matDatepicker]="picker"
+          placeholder="YYYY-MM-DD"
+        />
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </form>
+  </div>
+</main>
