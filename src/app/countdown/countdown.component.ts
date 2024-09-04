@@ -23,7 +23,7 @@ import {
   MatNativeDateModule,
 } from '@angular/material/core'
 import { MomentDateAdapter } from '@angular/material-moment-adapter'
-import { TextFitService } from '../service/resizeText.service' // Import the service
+import { TextFitService } from '../service/resizeText.service'
 import {
   calculateTimeDifference,
   formatTimeDifference,
