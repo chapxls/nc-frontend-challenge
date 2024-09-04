@@ -33,7 +33,7 @@ Use Git to clone the repository to your local machine:
 ### Navigate to the Project Directory
 Move into the project folder:
 
-cd nc-frontend-challenge
+`cd nc-frontend-challenge`
 
 ### Install Dependencies
 Install the required dependencies by running:
