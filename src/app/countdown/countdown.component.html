@@ -1,16 +1,16 @@
 <main>
   <div class="countdown-body">
     <div class="countdown-container">
-      <div
+      <h1
         *ngIf="
           !countdownForm.get('eventName')?.value &&
           !countdownForm.get('endDate')?.value
         "
-        class="text title"
+        class="welcome-text"
       >
         Welcome! Set up your countdown timer by entering an event title and
         selecting a date.
-      </div>
+      </h1>
       <div *ngIf="countdownForm.get('eventName')?.value" class="text title">
         Time to {{ countdownForm.get('eventName')?.value }}
       </div>
