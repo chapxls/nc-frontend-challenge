@@ -6,26 +6,26 @@ A frontend challenge project built using Angular and Angular Material. The appli
 
 Check out the live version of the project here: [nc-frontend-challenge.netlify.app](https://nc-frontend-challenge.netlify.app/)
 
-# Set up
+## Set up
 
 To set up the project locally, follow these steps:
 
-## Clone the Repository
+### Clone the Repository
 Use Git to clone the repository to your local machine:
 
 `git clone https://github.com/chapxls/nc-frontend-challenge.git`
 
-## Navigate to the Project Directory
+### Navigate to the Project Directory
 Move into the project folder:
 
 cd nc-frontend-challenge
 
-## Install Dependencies
+### Install Dependencies
 Install the required dependencies by running:
 
 `npm install`
 
-## Start the Development Server
+### Start the Development Server
 Launch the application locally:
 
 `ng serve`
