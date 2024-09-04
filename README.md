@@ -6,6 +6,21 @@ A frontend challenge project built using Angular and Angular Material. The appli
 
 Check out the live version of the project here: [nc-frontend-challenge.netlify.app](https://nc-frontend-challenge.netlify.app/)
 
+## Using the App
+
+### Enter Event Details
+Title: Input the name of the event in the "Title" field.
+Date: Choose the event date using the date picker.
+
+### View Countdown:
+The countdown to the event will automatically update and display the remaining time.
+
+### Resize Text
+The text will dynamically resize based on the input and window size.
+
+### Saved to local storage
+User input is saved to local storage to preserve input on reload.
+
 ## Set up
 
 To set up the project locally, follow these steps:
