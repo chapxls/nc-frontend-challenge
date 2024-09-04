@@ -1,6 +1,6 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@use "@angular/material" as mat;
+@use '@angular/material' as mat;
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -34,106 +34,106 @@ $nc-challenge-theme: mat.define-theme(
 // @include mat.typography-hierarchy($nc-challenge-theme);
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-Regular.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-Black.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-BlackItalic.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-BlackItalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-Bold.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-BoldItalic.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-BoldItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-ExtraBold.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-ExtraBoldItalic.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-ExtraBoldItalic.ttf') format('truetype');
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-Italic.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-Light.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-LightItalic.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-Medium.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-MediumItalic.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-MediumItalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-Regular.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-SemiBold.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSauceOne";
-  src: url("assets/fonts/OpenSauceOne-SemiBoldItalic.ttf") format("truetype");
+  font-family: 'OpenSauceOne';
+  src: url('assets/fonts/OpenSauceOne-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }
@@ -144,7 +144,7 @@ body {
 }
 body {
   margin: 0;
-  font-family: "OpenSauceOne", "Helvetica Neue", sans-serif;
+  font-family: 'OpenSauceOne', 'Helvetica Neue', sans-serif;
   background: #f5f3f3;
 }
 

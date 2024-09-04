@@ -77,7 +77,7 @@ export class CountdownComponent implements OnInit, OnDestroy, AfterViewInit {
   ) {
     this.countdownForm = this.fb.group({
       eventName: [''],
-      endDate: [new Date().toISOString().slice(0, -1)],
+      endDate: [null],
     })
   }
 
@@ -122,7 +122,14 @@ export class CountdownComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   updateRemainingTime() {
-    const endDate = new Date(this.countdownForm.get('endDate')?.value)
+    const endDateValue = this.countdownForm.get('endDate')?.value
+
+    if (!endDateValue) {
+      this.remainingTime = ''
+      return
+    }
+
+    const endDate = new Date(endDateValue)
     const timeDiff = calculateTimeDifference(endDate)
 
     this.remainingTime =
@@ -130,7 +137,6 @@ export class CountdownComponent implements OnInit, OnDestroy, AfterViewInit {
 
     this.fitText()
   }
-
   fitText() {
     const elementsToFit = ['.title', '.countdown']
 
